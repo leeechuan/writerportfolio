@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import KeyboardAnimation from "./canvas/Keyboard";
-import { useEffect } from "react";
+import { useEffect, Suspense } from "react";
+import CanvasLoader from "./Loader";
 
 
 
@@ -21,7 +22,7 @@ const Hero = () => {
         // Append the pressed key to the text content of the element
         textElement.textContent += event.key;
       }
-      
+
     }
   
     // Add event listener to detect key presses
@@ -70,12 +71,15 @@ const Hero = () => {
             I develop web applications, user <br className='sm:block hidden' />
             interfaces and backend services
           </p>
+          
+        <KeyboardAnimation></KeyboardAnimation>
         </div>
-      <KeyboardAnimation></KeyboardAnimation>
+      
+        
+
       </div>
-        <div className="canvas-cont">
-          <canvas id="canvas3d"></canvas>
-        </div>
+
+      {/* <KeyboardAnimation></KeyboardAnimation> */}
       {/* <ComputersCanvas /> */}
       
 
