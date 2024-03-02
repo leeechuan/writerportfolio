@@ -274,7 +274,7 @@ const projects = [
   {
     name: "First Portfolio",
     description:
-      "My very first website! Learnt how HTML and CSS basics with this project",
+      "My very first website! Learnt HTML and CSS basics with this project with the help of Udemy courses and youtube videos (and of course stack overlow).",
     tags: [
       {
         name: "html",

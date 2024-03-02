@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex items-center py-5 fixed top-0 z-20${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -61,9 +61,18 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+            <li className="social-icon">
+              <a href="http://linkedin.com/in/aleechuan/"> <i className="fab fa-linkedin"></i></a>
+            </li>
+            <li className="social-icon">
+              <a href="http://instagram.com/leee_chuan/"> <i className="fab fa-instagram"></i></a>
+            </li>
+            <li className="social-icon">
+              <a href="https://github.com/leeechuan/"> <i className="fab fa-github"></i></a>
+            </li>
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='sm:hidden flex flex-1 justify-end items-center cursor-pointer'>
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -81,7 +90,7 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                    active === nav.title ? "text-white" : "text-primary"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);
