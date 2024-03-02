@@ -1555,6 +1555,16 @@ body, html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:shadow-orange-200:hover{
+  --tw-shadow-color: #fed7aa;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:shadow-cyan-200:hover{
+  --tw-shadow-color: #a5f3fc;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 @media (min-width: 450px){
   .xs\:bottom-10{
     bottom: 2.5rem;

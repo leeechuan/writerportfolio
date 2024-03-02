@@ -8,7 +8,9 @@ const Tech = () => {
   return (
 
     <div className='py-10 flex flex-col'>
-          <h3 className={`${styles.sectionHeadText}`}>My Skills</h3>
+
+          <p className={`${styles.sectionSubText} `}>Tech Stack</p>
+          <h2 className={`${styles.sectionHeadText}`}>Skills.</h2>
   
           <div className='mt-16 flex flex-wrap gap-12'>
             {technologies.map((technology) => (
