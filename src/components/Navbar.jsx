@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20${
+      } w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -61,13 +61,13 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-            <li className="social-icon">
+            <li className="social-icon hover:text-blue-300">
               <a href="http://linkedin.com/in/aleechuan/"> <i className="fab fa-linkedin"></i></a>
             </li>
-            <li className="social-icon">
+            <li className="social-icon hover:text-red-300">
               <a href="http://instagram.com/leee_chuan/"> <i className="fab fa-instagram"></i></a>
             </li>
-            <li className="social-icon">
+            <li className="social-icon hover:text-green-300">
               <a href="https://github.com/leeechuan/"> <i className="fab fa-github"></i></a>
             </li>
         </ul>

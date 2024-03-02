@@ -1555,6 +1555,31 @@ body, html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-green-300:hover{
+  --tw-text-opacity: 1;
+  color: rgb(134 239 172 / var(--tw-text-opacity));
+}
+
+.hover\:text-blue-300:hover{
+  --tw-text-opacity: 1;
+  color: rgb(147 197 253 / var(--tw-text-opacity));
+}
+
+.hover\:text-indigo-300:hover{
+  --tw-text-opacity: 1;
+  color: rgb(165 180 252 / var(--tw-text-opacity));
+}
+
+.hover\:text-indigo-500:hover{
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity));
+}
+
+.hover\:text-red-300:hover{
+  --tw-text-opacity: 1;
+  color: rgb(252 165 165 / var(--tw-text-opacity));
+}
+
 .hover\:shadow-orange-200:hover{
   --tw-shadow-color: #fed7aa;
   --tw-shadow: var(--tw-shadow-colored);
@@ -1674,9 +1699,18 @@ body, html {
     height: 550px;
   }
 
+  .md\:p-3{
+    padding: 0.75rem;
+  }
+
   .md\:px-3{
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .md\:py-3{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .md\:text-\[60px\]{
