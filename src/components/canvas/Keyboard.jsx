@@ -5,6 +5,8 @@ import CanvasLoader from "../Loader";
 
 const KeyboardAnimation = () => {
 
+
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -15,9 +17,13 @@ const KeyboardAnimation = () => {
     app
       .load("https://prod.spline.design/uZEocBpkqwKrhJ0D/scene.splinecode")
       .then(() => {
+        app.camera.controls.enableZoom = false;
         setIsLoading(false); // Once the model is loaded, set isLoading to false
         startKeyPressAfterRender(); // Start keyboard animation
       })
+
+
+
 
       const targetString = " Lee Chuan";
       let currentIndex = 0;
