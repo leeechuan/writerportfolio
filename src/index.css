@@ -13,8 +13,10 @@
   color-scheme: dark;
 }
 
-html{
+body, html {
   overflow-x: hidden;
+  margin: 0; /* Ensure no default margin */
+  padding: 0; /* Ensure no default padding */
 }
 
 .hash-span {
@@ -237,6 +239,7 @@ html{
     top: -10%
   }
 }
+
 
 
 
