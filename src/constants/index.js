@@ -2,6 +2,9 @@ import {
   mobile,
   backend,
   creator,
+  webdev,
+  mobiledev,
+  architecture,
   web,
   javascript,
   typescript,
@@ -19,10 +22,18 @@ import {
   starbucks,
   tesla,
   shopify,
+  temus,
   carrent,
   jobit,
   tripguide,
   threejs,
+  outsystems,
+  python,
+  expressjs,
+  ripplegym,
+  kopisiudai,
+  projectbnb,
+  firstportfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -43,19 +54,15 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
+    icon: webdev,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Mobile Developer",
+    icon: mobiledev,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Architecture Specialist",
+    icon: architecture,
   },
 ];
 
@@ -72,18 +79,18 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -108,24 +115,35 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
   {
-    name: "docker",
-    icon: docker,
+    name: "outsystems",
+    icon: outsystems,
   },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "expressjs",
+    icon: expressjs,
+  }
 ];
 
 const experiences = [
   {
     title: "Software Developer",
     company_name: "Temus",
-    icon: starbucks,
+    icon: temus,
     iconBg: "#383E56",
     date: "April 2023 - Present",
     points: [
       "Development of commercial grade web and mobile applications using Outsystems and Javascript.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Cross collaboration with other functional teams, to create an AI powered solution for internal use",
+      "Engaging in backend development tasks including caching mechanisms and cart checkout functionalities."
     ],
   },
   
@@ -199,9 +217,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ripple",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Reactive web gym application built with MERN stack. Features user authentication, data archival of weekly workouts and content management for a local product listing page.",
     tags: [
       {
         name: "react",
@@ -216,50 +234,60 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ripplegym,
+    source_code_link: "https://theripplegym.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Kopi",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A project done as part of Outsystems Build for the Future Hackathon 2023. The application came in 3rd place for demos and ranked 13th overall out of 67 teams.",
     tags: [
       {
-        name: "react",
+        name: "outsystems",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "openAI API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "hackathon",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: kopisiudai,
+    source_code_link: "https://www.youtube.com/watch?v=jSQqT_oC680&t=2s",
   },
   {
-    name: "Trip Guide",
+    name: "Budget&Beyond",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application for families to keep track of their events, finances, shopping wish lists. Also features a back office, data archival and data isolation.",
     tags: [
       {
-        name: "nextjs",
+        name: "outsystems",
         color: "blue-text-gradient",
       },
+    ],
+    image: projectbnb,
+    source_code_link: "",
+  },
+  {
+    name: "First Portfolio",
+    description:
+      "My very first website! Learnt how HTML and CSS basics with this project",
+    tags: [
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "html",
+        color: "blue-text-gradient",
       },
+
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: firstportfolio,
+    source_code_link: "https://leeechuan.github.io/portfolio-old/",
   },
 ];
 
