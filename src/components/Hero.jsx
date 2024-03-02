@@ -23,6 +23,12 @@ const Hero = () => {
         textElement.textContent += event.key;
       }
 
+      if (textElement.textContent.length === 10) {
+        // Append the pressed key to the text content of the element
+        textElement.textContent = " Lee Chuan";
+      }
+
+
     }
   
     // Add event listener to detect key presses
