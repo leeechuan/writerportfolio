@@ -214,6 +214,13 @@
   transform: translateZ(0);
 }
 
+.canvas-cont{
+  /* bottom:0px;
+  position: absolute;
+  width: 100vw; */
+  height: 100vh
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

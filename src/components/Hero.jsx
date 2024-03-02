@@ -2,10 +2,57 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import KeyboardAnimation from "./canvas/Keyboard";
+import { useEffect } from "react";
+
+
+
 
 const Hero = () => {
+
+  useEffect(() => {
+    // Function to handle key presses and simulate typing effect
+    function handleKeyPress(event) {
+      const textElement = document.getElementById('name-text');
+      if (!textElement) return; // Ensure element exists
+
+      // Check if the length of the text content is less than 10 characters
+      if (textElement.textContent.length < 10) {
+        // Append the pressed key to the text content of the element
+        textElement.textContent += event.key;
+      }
+      
+    }
+  
+    // Add event listener to detect key presses
+    document.addEventListener('keydown', handleKeyPress);
+  
+    // Remove event listener when component unmounts
+    return () => {
+      document.removeEventListener('keydown', handleKeyPress);
+    };
+  }, []);
+  
+  // function typeWriter() {
+  //   const textElement = document.getElementById('name-text');
+  //   if (!textElement) return; // Ensure element exists
+  //   const text = " Lee Chuan";
+  //   if (index < text.length) {
+  //     textElement.textContent += text.charAt(index);
+  //     index++;
+  //     setTimeout(typeWriter, 100); // Adjust typing speed here (in milliseconds)
+  //   }
+  // }
+  
+  // let index = 0; // Declare index outside the function
+  
+  // useEffect(() => {
+  //   typeWriter()
+  // }, [])
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
+
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -16,16 +63,21 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-secondary`}>
-            Hi, I'm <span className='cyan-text-gradient'>Lee Chuan</span>
+            Hi, I'm 
+            <span className='cyan-text-gradient' id='name-text'></span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-secondary`}>
             I develop web applications, user <br className='sm:block hidden' />
             interfaces and backend services
           </p>
         </div>
+      <KeyboardAnimation></KeyboardAnimation>
       </div>
-
-      <ComputersCanvas />
+        <div className="canvas-cont">
+          <canvas id="canvas3d"></canvas>
+        </div>
+      {/* <ComputersCanvas /> */}
+      
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
