@@ -228,6 +228,47 @@ body, html {
   position: absolute;
 }
 
+.canvas-cont:has(.img){
+  height: unset;
+  width: unset;
+  top: unset;
+  left: unset;
+  position: absolute;
+}
+
+@media (max-width: 1000px){
+  .canvas-cont img{
+    width: 150vw;
+    top: 10vw;
+    position: absolute;
+  }
+}
+
+@media (max-width: 740px){
+  .canvas-cont img{
+    top: 30vw;
+    right: 30px;
+    position: absolute;
+  }
+
+  .canvas-cont{
+    top: 0
+  }
+}
+
+@media (max-width: 600px){
+  .canvas-cont img{
+    top: 70vw;
+    right: 30px;
+    position: absolute;
+  }
+
+  .canvas-cont{
+    top: 0
+  }
+}
+
+
 @media (max-width: 1400px){
   .canvas-cont{
     left: 0px

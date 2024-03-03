@@ -32,7 +32,7 @@ const KeyboardAnimation = () => {
     function isMacOrAndroid() {
       const userAgent = navigator.userAgent.toLowerCase();
       console.log(userAgent)
-      return /macintosh|mac os x/.test(userAgent) || /android/.test(userAgent) || /edge/.test(userAgent);
+      return /macintosh|mac os x/.test(userAgent) || /android/.test(userAgent) || /edg/.test(userAgent);
     }
 
     const targetString = " Lee Chuan";
