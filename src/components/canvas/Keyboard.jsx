@@ -15,7 +15,7 @@ const KeyboardAnimation = () => {
     const app = new Application(canvas);
 
     app
-      .load("https://prod.spline.design/wukRTy1PTN92pUIe/scene.splinecode")
+      .load("https://prod.spline.design/Zc-SL4yx-SuKcnAP/scene.splinecode")
       .then(() => {
         app.camera.controls.enableZoom = false;
         setIsLoading(false); // Once the model is loaded, set isLoading to false
