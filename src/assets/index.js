@@ -27,6 +27,9 @@ import threejs from "./tech/threejs.svg";
 import outsystems from "./tech/outsystems.png";
 import python from "./tech/python.png";
 import expressjs from "./tech/expressjs.png"
+import langchain from "./tech/langchain.png"
+import nextjs from "./tech/nextjs.png"
+import spline from "./tech/spline.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -71,6 +74,9 @@ export {
   outsystems,
   python,
   expressjs,
+  langchain,
+  nextjs,
+  spline,
   meta,
   shopify,
   starbucks,

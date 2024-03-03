@@ -34,6 +34,9 @@ import {
   kopisiudai,
   projectbnb,
   firstportfolio,
+  langchain,
+  nextjs,
+  spline,
 } from "../assets";
 
 export const navLinks = [
@@ -104,6 +107,10 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "spline",
+    icon: spline,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
@@ -130,7 +137,11 @@ const technologies = [
   {
     name: "expressjs",
     icon: expressjs,
-  }
+  },
+  {
+    name: "langchain",
+    icon: langchain,
+  },
 ];
 
 const experiences = [
@@ -259,19 +270,6 @@ const projects = [
     source_code_link: "https://www.youtube.com/watch?v=jSQqT_oC680&t=2s",
   },
   {
-    name: "Budget&Beyond",
-    description:
-      "Web application for families to keep track of their events, finances, shopping wish lists. Also features a back office, data archival and data isolation.",
-    tags: [
-      {
-        name: "outsystems",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: projectbnb,
-    source_code_link: "",
-  },
-  {
     name: "First Portfolio",
     description:
       "My very first website! Learnt HTML and CSS basics with this project with the help of Udemy courses and youtube videos (and of course stack overlow).",
@@ -288,6 +286,19 @@ const projects = [
     ],
     image: firstportfolio,
     source_code_link: "https://leeechuan.github.io/portfolio-old/",
+  },
+  {
+    name: "Budget&Beyond",
+    description:
+      "Web application for families to keep track of their events, finances, shopping wish lists. Also features a back office, data archival and data isolation.",
+    tags: [
+      {
+        name: "outsystems",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: projectbnb,
+    source_code_link: "",
   },
 ];
 
