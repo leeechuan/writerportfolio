@@ -24,7 +24,6 @@ const KeyboardAnimation = () => {
 
 
 
-
       const targetString = " Lee Chuan";
       let currentIndex = 0;
       let keyPressInterval;
