@@ -10,6 +10,7 @@ import close from "./close.svg";
 import webdev from "./webdev.png";
 import mobiledev from "./mobiledev.png";
 import architecture from "./architecture.png";
+import odc from "./odc.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -58,6 +59,7 @@ export {
   webdev,
   mobiledev,
   architecture,
+  odc,
   css,
   docker,
   figma,

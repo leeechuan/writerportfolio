@@ -5,6 +5,7 @@ import {
   webdev,
   mobiledev,
   architecture,
+  odc,
   web,
   javascript,
   typescript,
@@ -66,6 +67,10 @@ const services = [
   {
     title: "Architecture Specialist",
     icon: architecture,
+  },
+  {
+    title: "Outsystems Cloud",
+    icon: odc,
   },
 ];
 
