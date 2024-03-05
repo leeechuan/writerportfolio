@@ -69,9 +69,10 @@ const Hero = () => {
         </div>
 
         <div>
+          
           <h1 className={`${styles.heroHeadText} text-secondary`}>
             Hi, I'm 
-            <span className='cyan-text-gradient' id='name-text'></span>
+            <span className='cyan-text-gradient typing-container' id='name-text'></span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-secondary`}>
             I develop web applications, user <br className='sm:block hidden' />

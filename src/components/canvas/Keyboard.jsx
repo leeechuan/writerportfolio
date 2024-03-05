@@ -49,11 +49,11 @@ const KeyboardAnimation = () => {
             console.log(currentIndex)
       
           }
-        }, 500); // Each keypress interval
+        }, 300); // Each keypress interval
       }
       
       // Start simulating key presses after render of the spline model
-      setTimeout(startKeyPressAfterRender,500);  
+      setTimeout(startKeyPressAfterRender,300);  
 
   }, []);
 
