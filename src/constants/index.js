@@ -303,7 +303,7 @@ const projects = [
       },
     ],
     image: projectbnb,
-    source_code_link: "",
+    source_code_link: "https://docs.google.com/presentation/d/1Y-_3-nZGzg2PMqXmdrh0lcgbEA1ylEFA/edit?usp=sharing&ouid=104002942782337411474&rtpof=true&sd=true",
   },
 ];
 
