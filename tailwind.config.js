@@ -5,17 +5,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        // primary: "#050816",
-        // secondary: "#aaa6c3",
-        // tertiary: "#151030",
-        // "black-100": "#100d25",
-        // "black-200": "#090325",
-        // "white-100": "#f3f3f3",
-        primary: "#e6e7e9",
-        secondary: "#6e6d6d",
-        tertiary: "#333333",
-        "black-100": "#100d25",
-        "black-200": "#090325",
+        primary: "#eac7c7",
+        secondary: "#a16466",
+        tertiary: "#ece9f0",
+        "black-100": "#261718",
+        "black-200": "#12090a",
         "grey-100": "#525050",
         "white-100": "#c9c9c9",
         "grey-800" : "#2e2d2d"

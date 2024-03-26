@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
           <p className='text-secondary text-[18px] font-bold cursor-pointer flex '>
-            p o r t f o l i o &nbsp;
+            portfolio by dinise &nbsp;
             <span className='sm:block hidden'></span>
           </p>
         </Link>
@@ -62,13 +62,10 @@ const Navbar = () => {
             </li>
           ))}
             <li className="social-icon hover:text-blue-300">
-              <a href="http://linkedin.com/in/aleechuan/"> <i className="fab fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/dinise-chng/"> <i className="fab fa-linkedin"></i></a>
             </li>
-            <li className="social-icon hover:text-red-300">
-              <a href="http://instagram.com/leee_chuan/"> <i className="fab fa-instagram"></i></a>
-            </li>
-            <li className="social-icon hover:text-green-300">
-              <a href="https://github.com/leeechuan/"> <i className="fab fa-github"></i></a>
+            <li className="social-icon hover:text-blue-300">
+              <a href="http://instagram.com/dinisechng/"> <i className="fab fa-instagram"></i></a>
             </li>
         </ul>
 

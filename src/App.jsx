@@ -12,12 +12,13 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <Tech />
+        {/* <Tech /> */}
         <Works />
-        <div className='relative z-0 bg-[#0b0a0f]'>
-          <Contact />
+        <Contact />
+        {/* <div className='relative z-0 bg-[#0b0a0f]'>
+          
           <StarsCanvas />
-        </div>
+        </div> */}
       </div>
     </BrowserRouter>
   );
