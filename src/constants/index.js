@@ -102,6 +102,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Market Reporter",
+    company_name: "Argus Media",
+    icon: argusmedia,
+    iconBg: "#E6DEDD",
+    date: "Jun 2022 - Present",
+    points: [
+      "2 months on the Singapore News Desk, editing and publishing copies, writing stories on the energy and commodity market. ",
+      "4 months on the Fertilizers Desk, reporting on the Ammonium Sulphate (Amsul) and Urea markets in Asia.",
+      "Market Reporter in Fertilizers - Covering the Ammonia and Nitrogen (Urea and Ammonium Sulphate) Markets in Asia",
+    ],
+  },
+  {
     title: "Assistant Associate",
     company_name: "Tate Anzur",
     icon: tateanzur,
@@ -115,18 +127,7 @@ const experiences = [
     ],
   },
   
-  {
-    title: "Market Reporter",
-    company_name: "Argus Media",
-    icon: argusmedia,
-    iconBg: "#E6DEDD",
-    date: "Jun 2022 - Present",
-    points: [
-      "2 months on the Singapore News Desk, editing and publishing copies, writing stories on the energy and commodity market. ",
-      "4 months on the Fertilizers Desk, reporting on the Ammonium Sulphate (Amsul) and Urea markets in Asia.",
-      "Market Reporter in Fertilizers - Covering the Ammonia and Nitrogen (Urea and Ammonium Sulphate) Markets in Asia",
-    ],
-  },
+
 ];
 
 const testimonials = [
