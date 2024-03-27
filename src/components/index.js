@@ -6,6 +6,8 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
+import Book from "./book";
+import PopupModal from "./modal";
 
 
 export {
@@ -17,4 +19,6 @@ export {
   Works,
   Feedbacks,
   Contact,
+  Book,
+  PopupModal,
 };

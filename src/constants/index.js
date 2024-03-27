@@ -180,4 +180,41 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+
+const reads = [
+  {
+    name: "A Certain Hunger",
+    author: "Chelsea G. Summers",
+    readtime: "7h 44mins",
+    genre: "myster murder, fictional memoir, satire",
+    description:
+      "This book was equal parts grotesque and captivating. I really enjoyed it, read like a feminist version of american psycho coupled with critiques on foodism. i loved all the gritty details the author lavished onto us, and how she gave us privy into the dark mind of a psychopath and murderer. definitely told from the perspective of an unreliable narrator, which complicates but also adds dimension and dynamism to the body of work. completely unhinged & i resonate completely with it.",
+    rating:
+      "4",
+    backgroundurl: "https://m.media-amazon.com/images/I/81AtUZ9-MQL._AC_UF1000,1000_QL80_.jpg",
+  },
+  {
+    name: "Welcome To The Hyunam-Dong Bookshop",
+    author: "Hwang Bo-reum",
+    readtime: "4h 38mins",
+    genre: "slice of life, fictional, think tank",
+    description:
+      "This was a translated novel from a korean writer. loved the vibes, very calming, explored a few characters who either burnt out from work or life and decided to explore an unconventional way of life after quitting their normal corporate hustle. language was of course a little scratchy considering it was a translated piece; but there were many memorable quotes about how living truly to yourself is a good day spent, and one should be proud of that. the book felt like a comfy little hideout to escape into whenever you opened it, a cosy warm bookstore, sitting by the fireplace, whatever you imagine it. worth reading, really enjoyed the whole experience",
+    rating:
+      "4",
+    backgroundurl: "https://m.media-amazon.com/images/I/81h0d9oZqiL._AC_UF1000,1000_QL80_.jpg",
+  },
+  {
+    name: "Mad Honey",
+    author: "Jodi Picoult",
+    readtime: "4h 1min",
+    genre: "suicide, teransgender, domestic abuse",
+    description:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
+    rating:
+      "3.5",
+    backgroundurl: "https://m.media-amazon.com/images/I/A1ymg0b1mLL._AC_UF1000,1000_QL80_.jpg",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, reads };
