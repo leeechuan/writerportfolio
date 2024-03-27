@@ -6,7 +6,7 @@ const Hero = () => {
 
 
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full xl:h-[50vw] lg:h-[60vw] md:h-[70vw] sm:h-[130vw] xxs:h-[150vw] h-[200vw] mx-auto`}>
 
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
