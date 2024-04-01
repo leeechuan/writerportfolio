@@ -1723,6 +1723,11 @@ body, html {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.hover\:shadow-pink-200:hover{
+  --tw-shadow-color: #fbcfe8;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 @media (min-width: 300px){
   .xxs\:h-\[150vw\]{
     height: 150vw;
