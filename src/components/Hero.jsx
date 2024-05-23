@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-import girlpng from "../assets/girlhero.png";
+import girlpng from "../assets/girlhero2.png";
 import { useNavigate } from "react-router-dom";
 
 
